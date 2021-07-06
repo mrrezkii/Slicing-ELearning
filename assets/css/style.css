@@ -1,29 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+
 body {
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;   
+}
+
+/* Header */
+
+header{
+    background-image: url("/assets/image/4805657 1.svg");
+    position: relative;
+    height: 774px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: -20px;
+    background-size: 520px;
 }
 
 nav {
-    margin: 48px 120px 0 120px;
+    margin: 48px 100px 0 120px;
     height: 96px;
+    background-color: white;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.08);
 }
 
 nav ul{
     list-style: none;
     padding: 24px 32px 24px 32px;
-    
-    
 }
 
 nav ul li {
     float: left;
     color: #333333;
     font-weight: 500;
-    padding: 16px 0 16px 0;
-    
+    padding: 16px 0 16px 0;    
 }
 
 .navbar-brand{
@@ -48,4 +58,116 @@ nav ul li {
     background-color: #7720C8;
     color: #F2F2F2;
     padding: 16px 32px 16px 32px;
+}
+
+.container{
+    display: flex;
+}
+
+.header-flex{
+    margin: 80px 120px 0 120px;
+}
+
+.header-left{
+    flex-basis: 50%;
+    margin-right: 80px;
+}
+
+.header-left h1{
+    font-weight: 500;
+    font-size: 40px;
+    color: #333333;
+    line-height: 56px;
+}
+
+.header-left p{
+    font-size: 18px;
+    color: #828282;
+    line-height: 34px;
+}
+
+.header-right{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+
+.search{
+    flex-grow: 1;
+    height: 300px;
+}
+
+.category{
+    flex-grow: 1;
+    height: 300px;
+}
+.btn-search{
+    flex-grow: 1;
+    height: 300px;
+}
+
+/* Main */
+
+main {
+    padding-top: 200px;
+}
+
+article h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+
+.container-course{
+    flex-wrap: wrap;
+}
+
+.card-course{
+    padding: 10px;
+    box-shadow: 0 0px 4px 0 rgba(0,0,0,0.2);
+    margin: auto;
+}
+
+.card-course h3{
+    font-weight: 500;
+    color: #4F4F4F;
+    font-size: 18px;
+}
+
+.card-course p{
+    color: #4F4F4F;
+    font-size: 14px;
+}
+
+.rating{
+    flex-direction: horizontal;
+}
+
+.card-course h3, .card-course p, .rating{
+    margin-left: 16px;
+}
+
+
+.view-all{
+    float: right;
+    margin-right: 20px;
+    color: #7720C8;
+    font-size: 24px;
+}
+
+.container-service{
+    margin-top: 200px;
+}
+
+
+.container-service img, .right-side{
+    flex-basis: 50%;
+    margin: 0 auto;
+}
+
+.right-slide h2{
+    margin: auto;
+    text-align: center;
+    padding-right: 50px;
+    
 }
