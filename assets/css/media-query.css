@@ -44,6 +44,10 @@
     .header-right {
         flex-basis: 0%;
     }
+
+    .container-service img {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 910px) {
@@ -54,7 +58,16 @@
     }
 }
 
-@media screen and (max-width: 671px) {
+@media screen and (max-width: 742px) {
+    .header-flex {
+        display: block;
+    }
+
+    .header-right {
+        visibility: hidden;
+        width: 0;
+    }
+
     nav {
         padding-bottom: 100px;
     }
@@ -74,6 +87,7 @@
     }
 }
 
+
 @media screen and (max-width: 641px) {
     .header-flex {
         margin: 0 auto;
@@ -84,8 +98,4 @@
 
     }
 
-    .header-right {
-        visibility: hidden;
-        width: 0;
-    }
 }
