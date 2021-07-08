@@ -2,7 +2,7 @@
 
 
 body {
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
@@ -218,4 +218,58 @@ article h2{
     text-align: center;
     color: #4F4F4F;
     font-size: 24px;
+}
+
+.container-biodata{
+    flex-wrap: wrap;
+}
+
+.card-profile{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+/* Biodata */
+
+.bg-biodata{
+    background-color: #F2C94C;
+    color: #333333;
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+table{
+    text-align: left;
+    margin-left: 200px;
+}
+    
+.card-profile img{
+    margin-bottom: 20px;
+}
+
+.quotes{
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #7720C8;
+}
+
+
+footer p{
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+}
+
+footer a{
+    color: white;
+    font-weight: 500;
 }
