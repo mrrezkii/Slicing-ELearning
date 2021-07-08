@@ -8,13 +8,13 @@ body {
 /* Header */
 
 header {
-    background-image: url("/assets/image/4805657 1.svg");
+    background-image: url("/assets/image/bg.png"); /* I dont know why this code not running (except from live server), reviewer may know ? */
     position: relative;
     height: 774px;
-    background-repeat: no-repeat;
-    background-position: right;
+    background-repeat: no-repeat;  /* I dont know why this code not running (except from live server), reviewer may know ? */
+    background-position: right;  /* I dont know why this code not running (except from live server), reviewer may know ? */
     margin-top: -20px;
-    background-size: 520px;
+    background-size: 520px;  /* I dont know why this code not running (except from live server), reviewer may know ? */
 }
 
 nav {
